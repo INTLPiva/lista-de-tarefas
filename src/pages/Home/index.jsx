@@ -52,6 +52,12 @@ export function Home() {
     }
   }
 
+  function handleKeyPress(event) {
+    if (event.key === "Enter" && newTodoTitle && newDescription) {
+      handleCreateTask();
+    }
+  }
+
   useEffect(() => {
     getTasks();
   }, []);
@@ -67,6 +73,7 @@ export function Home() {
             type="text"
             value={newTodoTitle}
             onChange={(e) => setNewTodoTitle(e.target.value)}
+            onKeyPress={(event) => handleKeyPress(event)}
           />
 
           <Input
@@ -74,6 +81,7 @@ export function Home() {
             type="text"
             value={newDescription}
             onChange={(e) => setNewDescription(e.target.value)}
+            onKeyPress={(event) => handleKeyPress(event)}
           />
 
           <Button
