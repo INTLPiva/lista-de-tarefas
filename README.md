@@ -3,7 +3,7 @@
 - [Lista de Tarefas](#lista-de-tarefas)
   - [🖥️ Tecnologias Usadas](#️-tecnologias-usadas)
   - [⚙️ Instale antes de tentar executar o projeto](#️-instale-antes-de-tentar-executar-o-projeto)
-  - [🚀️ Executando os projetos](#️-executando-os-projetos)
+  - [🚀️ Executando o projeto](#️-executando-o-projeto)
 
 ## ⚡️ O Projeto
 
