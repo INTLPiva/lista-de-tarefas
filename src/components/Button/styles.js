@@ -12,8 +12,7 @@ export const ButtonStyled = styled.button`
   transition: all 0.2s;
 
   &:hover {
-    background-color: ${({ active }) =>
-      active ? "rgb(94, 38, 167)" : "rgb(117, 46, 209)"};
+    background-color: rgb(104, 42, 186);
   }
 `;
 
