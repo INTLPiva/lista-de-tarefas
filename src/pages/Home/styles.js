@@ -30,6 +30,15 @@ export const InputsContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+
+    div,
+    button {
+      width: 100%;
+    }
+  }
 `;
 
 export const Tabs = styled.div`
